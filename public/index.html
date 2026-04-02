@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BH Guide - Turismo Profissional</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 
@@ -17,15 +16,22 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#destinos">Destinos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#gastronomia">Gastronomia</a></li> <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
+    <section id="home" class="hero-banner">
+        <div class="banner-content">
+            <h2>Explore a Capital das Gerais</h2>
+            <p>Descubra os encantos de Belo Horizonte, da Pampulha ao Mercado Central.</p>
+        </div>
+    </section>
+
     <section class="search-bar-section">
         <div class="container">
             <form class="search-form">
-                <input type="text" placeholder="O que você quer visitar em BH?" required title="Digite um local">
+                <input type="text" placeholder="O que você quer visitar em BH?" required>
                 <select name="categoria" required>
                     <option value="" disabled selected>Escolha a categoria</option>
                     <option value="gastronomia">Gastronomia / Bares</option>
@@ -38,17 +44,9 @@
     </section>
 
     <main class="container">
-        <section id="home" class="hero">
-            <article>
-                <h2>Explore a Capital das Gerais</h2>
-                <p>Descubra os encantos de Belo Horizonte, desde a arquitetura da Pampulha até o sabor do Mercado Central.</p>
-            </article>
-        </section>
-
         <section id="destinos">
             <h2 class="section-title">Destinos Imperdíveis</h2>
             <div class="grid-destinos">
-                
                 <article class="card">
                     <img src="https://picsum.photos/id/43/400/250" alt="Lagoa da Pampulha">
                     <div class="card-content">
@@ -75,13 +73,11 @@
                         <a href="#" class="btn-link">Saiba mais</a>
                     </div>
                 </article>
-
             </div>
         </section>
 
         <section id="contato" class="contact-section">
             <h2>Agende agora o seu Tour</h2>
-            <p>Deixe seus dados e nossa equipe de guias entrará em contato.</p>
             <form class="contact-form">
                 <div class="form-group">
                     <label>Nome Completo:</label>
@@ -97,7 +93,10 @@
     </main>
 
     <footer class="main-footer">
-        <p>&copy; 2026 <strong>BH Turismo Digital </strong> - Projeto Acadêmico de Engenharia de Software.</p>
+        <div class="footer-social">
+            <p>Siga-nos: <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+        </div>
+        <p>&copy; 2026 <strong>BH Turismo Digital </strong> - Projeto Acadêmico.</p>
     </footer>
 
 </body>

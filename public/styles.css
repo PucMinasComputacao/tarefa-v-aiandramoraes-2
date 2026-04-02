@@ -173,3 +173,54 @@ body {
 }
 
 .main-footer strong { color: white; }
+
+/* --- ADIÇÕES DA SEMANA 5 --- */
+
+/* Estilo do Banner Principal (Exigência Etapa 2) */
+.hero-banner {
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/id/1025/1200/400');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-banner h2 { font-size: 2.5rem; margin-bottom: 10px; }
+
+.footer-social { margin-bottom: 15px; }
+.footer-social a { color: #2fa2d3; text-decoration: none; margin: 0 10px; }
+
+/* --- ETAPA 3: RESPONSIVIDADE (MEDIA QUERIES) --- */
+
+@media (max-width: 768px) {
+    /* Ajuste do Header/Menu */
+    .main-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-nav ul {
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-nav ul li { margin-left: 0; }
+
+    /* Ajuste da Barra de Pesquisa */
+    .search-form {
+        flex-direction: column;
+    }
+
+    /* Grid de Destinos: 1 coluna no Mobile */
+    .grid-destinos {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-banner h2 { font-size: 1.8rem; }
+}
