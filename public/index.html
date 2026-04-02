@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>BH Guide - Turismo Profissional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>BH <span>Turismo</span></h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-bar-section">
+        <div class="container">
+            <form class="search-form">
+                <input type="text" placeholder="O que você quer visitar em BH?" required title="Digite um local">
+                <select name="categoria" required>
+                    <option value="" disabled selected>Escolha a categoria</option>
+                    <option value="gastronomia">Gastronomia / Bares</option>
+                    <option value="cultura">Cultura e Museus</option>
+                    <option value="parques">Parques e Natureza</option>
+                </select>
+                <button type="submit">Buscar Agora</button>
+            </form>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <article>
+                <h2>Explore a Capital das Gerais</h2>
+                <p>Descubra os encantos de Belo Horizonte, desde a arquitetura da Pampulha até o sabor do Mercado Central.</p>
+            </article>
+        </section>
+
+        <section id="destinos">
+            <h2 class="section-title">Destinos Imperdíveis</h2>
+            <div class="grid-destinos">
+                
+                <article class="card">
+                    <img src="https://picsum.photos/id/43/400/250" alt="Lagoa da Pampulha">
+                    <div class="card-content">
+                        <h3>Orla da Pampulha</h3>
+                        <p>Visite a igrejinha de São Francisco e o Museu de Arte da Pampulha.</p>
+                        <a href="#" class="btn-link">Saiba mais</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://picsum.photos/id/10/400/250" alt="Praça da Liberdade">
+                    <div class="card-content">
+                        <h3>Circuito Liberdade</h3>
+                        <p>Um complexo cultural riquíssimo nos antigos prédios das secretarias estaduais.</p>
+                        <a href="#" class="btn-link">Saiba mais</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://picsum.photos/id/163/400/250" alt="Mercado Central">
+                    <div class="card-content">
+                        <h3>Mercado Central</h3>
+                        <p>O melhor lugar para experimentar o queijo mineiro e o famoso fígado com jiló.</p>
+                        <a href="#" class="btn-link">Saiba mais</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <h2>Agende agora o seu Tour</h2>
+            <p>Deixe seus dados e nossa equipe de guias entrará em contato.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Nome Completo:</label>
+                    <input type="text" placeholder="Ex: João Silva" required>
+                </div>
+                <div class="form-group">
+                    <label>E-mail:</label>
+                    <input type="email" placeholder="email@exemplo.com" required>
+                </div>
+                <button type="submit" class="btn-submit">Enviar uma Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 <strong>BH Turismo Digital </strong> - Projeto Acadêmico de Engenharia de Software.</p>
+    </footer>
+
 </body>
 </html>

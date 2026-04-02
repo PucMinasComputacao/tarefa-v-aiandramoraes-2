@@ -9,10 +9,10 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Aiandra de Sousa Silva
+- Matricula:906626
+- Proposta de projeto escolhida: Proposta 2 - Lugares e Experiências.
+- Breve descrição sobre seu projeto:O BH Turismo é um portal informativo focado em promover o turismo e a cultura de Belo Horizonte. O projeto foi estruturado para oferecer uma navegação fluida, onde o usuário encontra rapidamente as principais atrações da capital mineira, como o Conjunto Arquitetônico da Pampulha e o Mercado Central.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
